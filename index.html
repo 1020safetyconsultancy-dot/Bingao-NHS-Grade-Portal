@@ -24,7 +24,7 @@
       <div class="field"><label>Password</label><input id="loginPass" type="password" autocomplete="current-password" placeholder="Password"></div>
       <div class="field"><label>Account Type</label><select id="loginRole"><option value="student">Student</option><option value="adviser">Adviser</option><option value="admin">Administrator</option></select></div>
       <button class="btn primary" style="width:100%;padding:14px" type="submit">Sign In</button>
-      <div class="note" style="margin-top:16px">Advisers can create or reset login details only for learners assigned to them.</div>
+      <div class="note" style="margin-top:16px">Advisers can create, reset, and bulk print login details only for learners assigned to them.</div>
     </form>
   </div>
 </section>
@@ -40,5 +40,7 @@
 <input id="fileInput" type="file" accept=".xlsx,.xls,.csv" class="hidden">
 <div id="dbStatus" class="statusbar">Online Database • Ready</div>
 <script src="portal-app.js"></script>
+<script src="adviser-login-tools.js"></script>
+<script src="adviser-bulk-login-tools.js"></script>
 </body>
 </html>
