@@ -24,7 +24,7 @@
       <div class="field"><label>Password</label><input id="loginPass" type="password" autocomplete="current-password" placeholder="Password"></div>
       <div class="field"><label>Account Type</label><select id="loginRole"><option value="student">Student</option><option value="adviser">Adviser</option><option value="admin">Administrator</option></select></div>
       <button class="btn primary" style="width:100%;padding:14px" type="submit">Sign In</button>
-      <div class="note" style="margin-top:16px">Advisers can create, reset, and bulk print login details only for learners assigned to them.</div>
+      <div class="note" style="margin-top:16px">Student login details are generated automatically when a learner is added or imported.</div>
     </form>
   </div>
 </section>
@@ -41,5 +41,6 @@
 <div id="dbStatus" class="statusbar">Online Database • Ready</div>
 <script src="portal-app.js"></script>
 <script src="adviser-bulk-login-tools.js"></script>
+<script src="auto-student-login.js"></script>
 </body>
 </html>
